@@ -3,9 +3,20 @@
     <head>
         <title>Gallery</title>
         <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-        <link rel="stylesheet" href="style.css" />
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap.min.css">
     </head>
     <body>
+        <div class="navbar navbar-inverse navbar-fixed-top">
+            <div class="container">
+                <a class="navbar-brand">Contacts</a>
+                <div class="navbar-form navbar-right" id="login"></div>
+            </div>
+        </div>
+        <div class="jumbotron">
+            <div class="list-group" id="contactList">
+            </div>
+        </div>
         <script src="https://apis.google.com/js/client.js"></script>
         <script type="text/javascript" src="http://requirejs.org/docs/release/2.1.8/comments/require.js"></script>
         <script type="text/javascript" src="http://code.jquery.com/jquery-1.10.2.js"></script>
