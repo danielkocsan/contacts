@@ -6,7 +6,9 @@ define(
 
         GoogleApi.prototype = {
             init: function () {
-                if (!gapi || !gapi.clien) {
+                gapi.client.setApiKey('AIzaSyCKpx87jIRWoOE-rwCU4PM3P2MljLOwi3Y');
+    
+                if (!gapi || !gapi.client) {
                     this.trigger('disconnected');
                 }
             },

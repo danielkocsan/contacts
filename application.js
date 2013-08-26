@@ -97,6 +97,6 @@
     );
 
     window.app = new Router();
-    gapi.client.setApiKey('AIzaSyCKpx87jIRWoOE-rwCU4PM3P2MljLOwi3Y');
+    
     Backbone.history.start();
 }());
